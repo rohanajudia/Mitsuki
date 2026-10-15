@@ -1,0 +1,344 @@
+{
+  "products": [
+    {
+      "slug": "Tripple Bloom",
+      "crop": "fruits",
+      "name": "Tripple Bloom",
+      "summary": "Sample: supports flowering and fruit set.",
+      "description": "Sample description for Tripple Bloom. Replace this with the real product description.",
+      "image": "images/products/tripple bloom.png",
+      "featured": true,
+      "benefits": [
+        "Sample benefit 1: replace with a real benefit",
+        "Sample benefit 2: replace with a real benefit",
+        "Sample benefit 3: replace with a real benefit",
+        "Sample benefit 4: replace with a real benefit"
+      ],
+      "applicationMethod": "Sample: add how and when to apply this product.",
+      "dosage": "Sample: add the approved dosage for this product."
+    },
+    {
+      "slug": "Cham Cham",
+      "crop": "fruits",
+      "name": "Cham Cham",
+      "summary": "Sample: helps fruits fill out during growth.",
+      "description": "Sample description for Cham Cham. Replace this with the real product description.",
+      "image": "images/products/cham cham.png",
+      "featured": true,
+      "benefits": [
+        "Sample benefit 1: replace with a real benefit",
+        "Sample benefit 2: replace with a real benefit",
+        "Sample benefit 3: replace with a real benefit",
+        "Sample benefit 4: replace with a real benefit"
+      ],
+      "applicationMethod": "Sample: add how and when to apply this product.",
+      "dosage": "Sample: add the approved dosage for this product."
+    },
+    {
+      "slug": "Cham Cham",
+      "crop": "fruits",
+      "name": "Lizon",
+      "summary": "Sample: a base feed for young orchard plants.",
+      "description": "Sample description for Lizon. Replace this with the real product description.",
+      "image": "images/products/lizon.png",
+      "featured": false,
+      "benefits": [
+        "Sample benefit 1: replace with a real benefit",
+        "Sample benefit 2: replace with a real benefit",
+        "Sample benefit 3: replace with a real benefit",
+        "Sample benefit 4: replace with a real benefit"
+      ],
+      "applicationMethod": "Sample: add how and when to apply this product.",
+      "dosage": "Sample: add the approved dosage for this product."
+    },
+    {
+      "slug": "sweet-fruit-finisher",
+      "crop": "fruits",
+      "name": "Sweet Fruit Finisher",
+      "summary": "Sample: used in the final stage before harvest.",
+      "description": "Sample description for Sweet Fruit Finisher. Replace this with the real product description.",
+      "image": "images/products/placeholder-fruits.svg",
+      "featured": false,
+      "benefits": [
+        "Sample benefit 1: replace with a real benefit",
+        "Sample benefit 2: replace with a real benefit",
+        "Sample benefit 3: replace with a real benefit",
+        "Sample benefit 4: replace with a real benefit"
+      ],
+      "applicationMethod": "Sample: add how and when to apply this product.",
+      "dosage": "Sample: add the approved dosage for this product."
+    },
+    {
+      "slug": "citrus-care-mix",
+      "crop": "fruits",
+      "name": "Citrus Care Mix",
+      "summary": "Sample: a feed plan for citrus trees.",
+      "description": "Sample description for Citrus Care Mix. Replace this with the real product description.",
+      "image": "images/products/placeholder-fruits.svg",
+      "featured": false,
+      "benefits": [
+        "Sample benefit 1: replace with a real benefit",
+        "Sample benefit 2: replace with a real benefit",
+        "Sample benefit 3: replace with a real benefit",
+        "Sample benefit 4: replace with a real benefit"
+      ],
+      "applicationMethod": "Sample: add how and when to apply this product.",
+      "dosage": "Sample: add the approved dosage for this product."
+    },
+    {
+      "slug": "N.P.K  00:00:50",
+      "crop": "vegetables",
+      "name": "N.P.K  00:00:50",
+      "summary": "Sample: early growth support after transplanting.",
+      "description": "Sample description for N.P.K 00:00:50. Replace this with the real product description.",
+      "image": "images/products/NPK 000050.PNG",
+      "featured": true,
+      "benefits": [
+        "Sample benefit 1: replace with a real benefit",
+        "Sample benefit 2: replace with a real benefit",
+        "Sample benefit 3: replace with a real benefit",
+        "Sample benefit 4: replace with a real benefit"
+      ],
+      "applicationMethod": "Sample: add how and when to apply this product.",
+      "dosage": "Sample: add the approved dosage for this product."
+    },
+    {
+      "slug": "NPK 00:52:34",
+      "crop": "vegetables",
+      "name": "NPK 00:52:34",
+      "summary": "Sample: for lettuce, spinach and similar crops.",
+      "description": "Sample description for NPK 00:52:34. Replace this with the real product description.",
+      "image": "images/products/NPK 005234.PNG",
+      "featured": true,
+      "benefits": [
+        "Sample benefit 1: replace with a real benefit",
+        "Sample benefit 2: replace with a real benefit",
+        "Sample benefit 3: replace with a real benefit",
+        "Sample benefit 4: replace with a real benefit"
+      ],
+      "applicationMethod": "Sample: add how and when to apply this product.",
+      "dosage": "Sample: add the approved dosage for this product."
+    },
+    {
+      "slug": "root-crop-builder",
+      "crop": "vegetables",
+      "name": "Root Crop Builder",
+      "summary": "Sample: for carrots, radish and other roots.",
+      "description": "Sample description for Root Crop Builder. Replace this with the real product description.",
+      "image": "images/products/placeholder-vegetables.svg",
+      "featured": false,
+      "benefits": [
+        "Sample benefit 1: replace with a real benefit",
+        "Sample benefit 2: replace with a real benefit",
+        "Sample benefit 3: replace with a real benefit",
+        "Sample benefit 4: replace with a real benefit"
+      ],
+      "applicationMethod": "Sample: add how and when to apply this product.",
+      "dosage": "Sample: add the approved dosage for this product."
+    },
+    {
+      "slug": "flower-and-fruit-mix",
+      "crop": "vegetables",
+      "name": "Flower and Fruit Mix",
+      "summary": "Sample: for tomato, chilli and brinjal.",
+      "description": "Sample description for Flower and Fruit Mix. Replace this with the real product description.",
+      "image": "images/products/placeholder-vegetables.svg",
+      "featured": false,
+      "benefits": [
+        "Sample benefit 1: replace with a real benefit",
+        "Sample benefit 2: replace with a real benefit",
+        "Sample benefit 3: replace with a real benefit",
+        "Sample benefit 4: replace with a real benefit"
+      ],
+      "applicationMethod": "Sample: add how and when to apply this product.",
+      "dosage": "Sample: add the approved dosage for this product."
+    },
+    {
+      "slug": "vegetable-vigour-plus",
+      "crop": "vegetables",
+      "name": "Vegetable Vigour Plus",
+      "summary": "Sample: all-round feed for vegetable beds.",
+      "description": "Sample description for Vegetable Vigour Plus. Replace this with the real product description.",
+      "image": "images/products/placeholder-vegetables.svg",
+      "featured": false,
+      "benefits": [
+        "Sample benefit 1: replace with a real benefit",
+        "Sample benefit 2: replace with a real benefit",
+        "Sample benefit 3: replace with a real benefit",
+        "Sample benefit 4: replace with a real benefit"
+      ],
+      "applicationMethod": "Sample: add how and when to apply this product.",
+      "dosage": "Sample: add the approved dosage for this product."
+    },
+    {
+      "slug": "N.P.K 19:19:19",
+      "crop": "field-crops",
+      "name": "N.P.K 19:19:19",
+      "summary": "Sample: a base feed at sowing time.",
+      "description": "Sample description for N.P.K 19:19:19. Replace this with the real product description.",
+      "image": "images/products/npk 191919.PNG",
+      "featured": true,
+      "benefits": [
+        "Sample benefit 1: replace with a real benefit",
+        "Sample benefit 2: replace with a real benefit",
+        "Sample benefit 3: replace with a real benefit",
+        "Sample benefit 4: replace with a real benefit"
+      ],
+      "applicationMethod": "Sample: add how and when to apply this product.",
+      "dosage": "Sample: add the approved dosage for this product."
+    },
+    {
+      "slug": "ultra hd 005234",
+      "crop": "field-crops",
+      "name": "Ultra HD 00:52:34",
+      "summary": "Sample: a feed plan for cotton.",
+      "description": "Sample description for Ultra HD 00:52:34. Replace this with the real product description.",
+      "image": "images/products/ultra hd 005234.png",
+      "featured": true,
+      "benefits": [
+        "Sample benefit 1: replace with a real benefit",
+        "Sample benefit 2: replace with a real benefit",
+        "Sample benefit 3: replace with a real benefit",
+        "Sample benefit 4: replace with a real benefit"
+      ],
+      "applicationMethod": "Sample: add how and when to apply this product.",
+      "dosage": "Sample: add the approved dosage for this product."
+    },
+    {
+      "slug": "groundnut-booster",
+      "crop": "field-crops",
+      "name": "Groundnut Booster",
+      "summary": "Sample: support for groundnut growth.",
+      "description": "Sample description for Groundnut Booster. Replace this with the real product description.",
+      "image": "images/products/placeholder-field-crops.svg",
+      "featured": false,
+      "benefits": [
+        "Sample benefit 1: replace with a real benefit",
+        "Sample benefit 2: replace with a real benefit",
+        "Sample benefit 3: replace with a real benefit",
+        "Sample benefit 4: replace with a real benefit"
+      ],
+      "applicationMethod": "Sample: add how and when to apply this product.",
+      "dosage": "Sample: add the approved dosage for this product."
+    },
+    {
+      "slug": "cereal-growth-mix",
+      "crop": "field-crops",
+      "name": "Cereal Growth Mix",
+      "summary": "Sample: for wheat, bajra and similar cereals.",
+      "description": "Sample description for Cereal Growth Mix. Replace this with the real product description.",
+      "image": "images/products/placeholder-field-crops.svg",
+      "featured": false,
+      "benefits": [
+        "Sample benefit 1: replace with a real benefit",
+        "Sample benefit 2: replace with a real benefit",
+        "Sample benefit 3: replace with a real benefit",
+        "Sample benefit 4: replace with a real benefit"
+      ],
+      "applicationMethod": "Sample: add how and when to apply this product.",
+      "dosage": "Sample: add the approved dosage for this product."
+    },
+    {
+      "slug": "soil-health-plus",
+      "crop": "field-crops",
+      "name": "Soil Health Plus",
+      "summary": "Sample: a soil conditioning product.",
+      "description": "Sample description for Soil Health Plus. Replace this with the real product description.",
+      "image": "images/products/placeholder-field-crops.svg",
+      "featured": false,
+      "benefits": [
+        "Sample benefit 1: replace with a real benefit",
+        "Sample benefit 2: replace with a real benefit",
+        "Sample benefit 3: replace with a real benefit",
+        "Sample benefit 4: replace with a real benefit"
+      ],
+      "applicationMethod": "Sample: add how and when to apply this product.",
+      "dosage": "Sample: add the approved dosage for this product."
+    },
+    {
+      "slug": "Real Mix",
+      "crop": "nursery",
+      "name": "Real Mix",
+      "summary": "Sample: gentle feed for new seedlings.",
+      "description": "Sample description for Real Mix. Replace this with the real product description.",
+      "image": "images/products/real mix.png",
+      "featured": true,
+      "benefits": [
+        "Sample benefit 1: replace with a real benefit",
+        "Sample benefit 2: replace with a real benefit",
+        "Sample benefit 3: replace with a real benefit",
+        "Sample benefit 4: replace with a real benefit"
+      ],
+      "applicationMethod": "Sample: add how and when to apply this product.",
+      "dosage": "Sample: add the approved dosage for this product."
+    },
+    {
+      "slug": "Sleek Gold",
+      "crop": "nursery",
+      "name": "Sleek Gold",
+      "summary": "Sample: encourages strong roots in young plants.",
+      "description": "Sample description for Sleek Gold. Replace this with the real product description.",
+      "image": "images/products/sleek gold.png",
+      "featured": true,
+      "benefits": [
+        "Sample benefit 1: replace with a real benefit",
+        "Sample benefit 2: replace with a real benefit",
+        "Sample benefit 3: replace with a real benefit",
+        "Sample benefit 4: replace with a real benefit"
+      ],
+      "applicationMethod": "Sample: add how and when to apply this product.",
+      "dosage": "Sample: add the approved dosage for this product."
+    },
+    {
+      "slug": "nursery-growth-booster",
+      "crop": "nursery",
+      "name": "Nursery Growth Booster",
+      "summary": "Sample: steady growth for nursery stock.",
+      "description": "Sample description for Nursery Growth Booster. Replace this with the real product description.",
+      "image": "images/products/placeholder-nursery.svg",
+      "featured": false,
+      "benefits": [
+        "Sample benefit 1: replace with a real benefit",
+        "Sample benefit 2: replace with a real benefit",
+        "Sample benefit 3: replace with a real benefit",
+        "Sample benefit 4: replace with a real benefit"
+      ],
+      "applicationMethod": "Sample: add how and when to apply this product.",
+      "dosage": "Sample: add the approved dosage for this product."
+    },
+    {
+      "slug": "potting-mix-enhancer",
+      "crop": "nursery",
+      "name": "Potting Mix Enhancer",
+      "summary": "Sample: improves potting media nutrition.",
+      "description": "Sample description for Potting Mix Enhancer. Replace this with the real product description.",
+      "image": "images/products/placeholder-nursery.svg",
+      "featured": false,
+      "benefits": [
+        "Sample benefit 1: replace with a real benefit",
+        "Sample benefit 2: replace with a real benefit",
+        "Sample benefit 3: replace with a real benefit",
+        "Sample benefit 4: replace with a real benefit"
+      ],
+      "applicationMethod": "Sample: add how and when to apply this product.",
+      "dosage": "Sample: add the approved dosage for this product."
+    },
+    {
+      "slug": "sapling-vigour-mix",
+      "crop": "nursery",
+      "name": "Sapling Vigour Mix",
+      "summary": "Sample: support for saplings before planting out.",
+      "description": "Sample description for Sapling Vigour Mix. Replace this with the real product description.",
+      "image": "images/products/placeholder-nursery.svg",
+      "featured": false,
+      "benefits": [
+        "Sample benefit 1: replace with a real benefit",
+        "Sample benefit 2: replace with a real benefit",
+        "Sample benefit 3: replace with a real benefit",
+        "Sample benefit 4: replace with a real benefit"
+      ],
+      "applicationMethod": "Sample: add how and when to apply this product.",
+      "dosage": "Sample: add the approved dosage for this product."
+    }
+  ]
+}
