@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dealer Network - Mitsuki Crop Energy</title>
+  <meta name="description" content="Find a Mitsuki dealer near you.">
+  <meta name="theme-color" content="#e4f2da">
+  <meta property="og:title" content="Dealer Network - Mitsuki Crop Energy">
+  <meta property="og:description" content="Find a Mitsuki dealer near you.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap">
+
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components/header.css">
+  <link rel="stylesheet" href="css/components/footer.css">
+  <link rel="stylesheet" href="css/components/sections.css">
+  <link rel="stylesheet" href="css/components/forms.css">
+
+  <script src="js/utils.js" defer></script>
+  <script src="js/data/dealers.js" defer></script>
+  <script src="js/components/site-header.js" defer></script>
+  <script src="js/components/site-footer.js" defer></script>
+  <script src="js/dealer-network.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <site-header></site-header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <h1>Dealer Network</h1>
+        <p>Find a Mitsuki dealer near you.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="dealer-filter field" id="dealer-filter" hidden>
+          <label for="state-filter">State</label>
+          <select id="state-filter"></select>
+        </div>
+        <div class="dealer-list" id="dealer-list"></div>
+        <div class="empty-state" id="dealer-empty" hidden>
+          <h2>Our dealer list is coming soon</h2>
+          <p>We are building our dealer network. To buy Mitsuki products now, contact us. To sell them, apply as a dealer.</p>
+          <a class="btn btn-primary" href="contact.html">Contact us</a>
+          <a class="btn btn-cta" href="become-a-dealer.html">Become a dealer</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <site-footer></site-footer>
+</body>
+</html>

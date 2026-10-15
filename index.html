@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mitsuki Crop Energy - Growing Strong</title>
+  <meta name="description"
+    content="Mitsuki Crop Energy - crop nutrition for fruits, vegetables, field crops and nurseries.">
+  <meta name="theme-color" content="#e4f2da">
+  <meta property="og:title" content="Mitsuki Crop Energy - Growing Strong">
+  <meta property="og:description"
+    content="Mitsuki Crop Energy - crop nutrition for fruits, vegetables, field crops and nurseries.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap">
+
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components/header.css">
+  <link rel="stylesheet" href="css/components/footer.css">
+  <link rel="stylesheet" href="css/components/hero.css">
+  <link rel="stylesheet" href="css/components/crop-strip.css">
+  <link rel="stylesheet" href="css/components/cards.css">
+  <link rel="stylesheet" href="css/components/carousel.css">
+  <link rel="stylesheet" href="css/components/company-band.css">
+  <link rel="stylesheet" href="css/components/sections.css">
+
+  <script src="js/utils.js" defer></script>
+  <script src="js/data/crops.js" defer></script>
+  <script src="js/data/products-loader.js" defer></script>
+  <script src="js/components/site-header.js" defer></script>
+  <script src="js/components/site-footer.js" defer></script>
+  <script src="js/components/crop-strip.js" defer></script>
+  <script src="js/components/crop-cards.js" defer></script>
+  <script src="js/components/product-card.js" defer></script>
+  <script src="js/components/product-carousel.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <site-header></site-header>
+
+  <main id="main">
+    <section class="hero">
+      <img class="hero-bg" src="images/hero/hero.jpg" alt="" width="1920" height="700">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h1>Growing Strong</h1>
+          <p class="lead">Crop nutrition for fruits, vegetables, field crops and nurseries.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="products.html">Explore products</a>
+            <a class="btn btn-cta" href="become-a-dealer.html">Become a dealer</a>
+          </div>
+        </div>
+        <crop-strip></crop-strip>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Products for every crop</h2>
+          <p>Choose a crop group to see the products made for it.</p>
+        </div>
+        <crop-cards></crop-cards>
+      </div>
+    </section>
+
+    <section class="company-band">
+      <img class="company-band-bg" src="images/company/company.jpg" alt="" width="1920" height="900" loading="lazy">
+      <div class="container company-band-content">
+        <p class="company-label">Company</p>
+        <h2>Crop nutrition you can trust, season after season</h2>
+        <p class="company-text">Mitsuki Crop Energy, based in Jamnagar, Gujarat, offers crop nutrition for fruits,
+          vegetables, field crops and nurseries, and works with dealers to bring it closer to farmers.</p>
+        <a class="btn btn-primary btn-line" href="about.html">About us</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <product-carousel heading="Featured products" intro="A few products from each crop group."></product-carousel>
+        <p class="carousel-more"><a class="btn btn-primary" href="products.html">View all products</a></p>
+      </div>
+    </section>
+
+    <!-- EDIT THESE NUMBERS: change the number inside each <strong> and the label next to it. -->
+    <section class="section section-green">
+      <div class="container">
+        <div class="stats">
+          <div><strong class="stat-number">4</strong><span class="stat-label">Crop groups</span></div>
+          <div><strong class="stat-number">20</strong><span class="stat-label">Products</span></div>
+          <div><strong class="stat-number">100+</strong><span class="stat-label">Dealers (sample number)</span></div>
+          <div><strong class="stat-number">1000+</strong><span class="stat-label">Farmers (sample number)</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="cta-banner">
+          <div>
+            <h2>Become a Mitsuki dealer</h2>
+            <p>Apply to sell Mitsuki products in your area.</p>
+          </div>
+          <a class="btn btn-cta" href="become-a-dealer.html">Apply as a dealer</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light">
+      <div class="container contact-strip">
+        <div>
+          <h3>Visit us</h3>
+          <address>Resident Zone, H/746, GJ SH 27, GIDC Phase-2, Dared, Jamnagar, Gujarat 361004</address>
+        </div>
+        <p><a href="https://www.instagram.com/mitsukicrop.in" target="_blank" rel="noopener">Instagram:
+            mitsukicrop.in</a></p>
+        <a class="btn btn-primary" href="contact.html">Contact us</a>
+      </div>
+    </section>
+  </main>
+
+  <site-footer></site-footer>
+</body>
+
+</html>

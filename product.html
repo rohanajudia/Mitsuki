@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product - Mitsuki Crop Energy</title>
+  <meta name="description" content="Mitsuki product details.">
+  <meta name="theme-color" content="#e4f2da">
+  <meta property="og:title" content="Products - Mitsuki Crop Energy">
+  <meta property="og:description" content="Mitsuki product details.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap">
+
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components/header.css">
+  <link rel="stylesheet" href="css/components/footer.css">
+  <link rel="stylesheet" href="css/components/cards.css">
+  <link rel="stylesheet" href="css/components/carousel.css">
+  <link rel="stylesheet" href="css/components/sections.css">
+  <link rel="stylesheet" href="css/components/product-detail.css">
+
+  <script src="js/utils.js" defer></script>
+  <script src="js/data/crops.js" defer></script>
+  <script src="js/data/products-loader.js" defer></script>
+  <script src="js/components/site-header.js" defer></script>
+  <script src="js/components/site-footer.js" defer></script>
+  <script src="js/components/product-card.js" defer></script>
+  <script src="js/product-page.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <site-header></site-header>
+
+  <main id="main">
+    <section class="section">
+      <div class="container" id="product-root" aria-live="polite">
+        <p>Loading product...</p>
+      </div>
+    </section>
+  </main>
+
+  <site-footer></site-footer>
+</body>
+</html>

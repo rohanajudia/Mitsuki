@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us - Mitsuki Crop Energy</title>
+  <meta name="description" content="Contact Mitsuki Crop Energy in Jamnagar, Gujarat.">
+  <meta name="theme-color" content="#e4f2da">
+  <meta property="og:title" content="Contact Us - Mitsuki Crop Energy">
+  <meta property="og:description" content="Contact Mitsuki Crop Energy in Jamnagar, Gujarat.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap">
+
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components/header.css">
+  <link rel="stylesheet" href="css/components/footer.css">
+  <link rel="stylesheet" href="css/components/sections.css">
+  <link rel="stylesheet" href="css/components/forms.css">
+
+  <script src="js/config.js" defer></script>
+  <script src="js/utils.js" defer></script>
+  <script src="js/components/site-header.js" defer></script>
+  <script src="js/components/site-footer.js" defer></script>
+  <script src="js/forms.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <site-header></site-header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <h1>Contact us</h1>
+        <p>Ask about products or tell us how we can help.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split">
+        <div class="panel">
+          <h2>Our details</h2>
+          <ul class="contact-list">
+            <li><strong>Address</strong><address>Resident Zone, H/746, GJ SH 27,<br>GIDC Phase-2, Dared,<br>Jamnagar, Gujarat 361004</address></li>
+            <li><strong>Instagram</strong><a href="https://www.instagram.com/mitsukicrop.in" target="_blank" rel="noopener">mitsukicrop.in</a></li>
+          </ul>
+        </div>
+
+        <form class="form-card" data-form="contact" action="#">
+          <h2>Send a message</h2>
+          <div class="form-grid">
+        <div class="field">
+          <label for="full_name">Full name<span class="req" aria-hidden="true">*</span></label>
+          <input id="full_name" name="full_name" required type="text" autocomplete="name" data-msg-required="Enter your name.">
+        </div>
+        <div class="field">
+          <label for="phone">Phone number<span class="req" aria-hidden="true">*</span></label>
+          <input id="phone" name="phone" required type="tel" inputmode="numeric" maxlength="10" pattern="[0-9]{10}" autocomplete="tel-national" data-digits data-msg-required="Enter your 10-digit phone number." data-msg-invalid="Phone number must be exactly 10 digits.">
+          <p class="hint">10 digits, numbers only.</p>
+        </div>
+        <div class="field field-wide">
+          <label for="email">Email (optional)</label>
+          <input id="email" name="email" type="email" autocomplete="email" data-msg-invalid="Enter a valid email address.">
+        </div>
+        <div class="field field-wide">
+          <label for="message">Message<span class="req" aria-hidden="true">*</span></label>
+          <textarea id="message" name="message" required rows="5" data-msg-required="Write your message."></textarea>
+        </div>
+          </div>
+          <div class="form-actions">
+            <button class="btn btn-cta" type="submit">Send message</button>
+          </div>
+          <div class="form-status" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <site-footer></site-footer>
+</body>
+</html>
