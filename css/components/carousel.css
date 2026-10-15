@@ -1,0 +1,47 @@
+/* carousel.css - horizontal product carousel with scroll-snap */
+.carousel-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.carousel-head .section-head { margin-bottom: 0; }
+
+.carousel-controls { display: flex; gap: 10px; flex-shrink: 0; }
+.carousel-btn {
+  width: 44px;
+  height: 44px;
+  border: 2px solid var(--green-500);
+  border-radius: 50%;
+  background: var(--white);
+  color: var(--text);
+  font-size: 1.2rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.carousel-btn:hover:not([disabled]) { background: var(--green-100); }
+.carousel-btn[disabled] { opacity: 0.4; cursor: default; }
+
+.carousel-track {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 12px;
+}
+.carousel-track > .product-card {
+  flex: 0 0 calc((100% - 60px) / 4);
+  scroll-snap-align: start;
+}
+
+@media (max-width: 1000px) {
+  .carousel-track > .product-card { flex-basis: calc((100% - 20px) / 2); }
+}
+@media (max-width: 600px) {
+  .carousel-track > .product-card { flex-basis: 78%; }
+  .carousel-controls { display: none; } /* swipe on touch screens */
+}
+
+.carousel-more { margin: 20px 0 0; }

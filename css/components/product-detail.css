@@ -1,0 +1,44 @@
+/* product-detail.css - product details page */
+.breadcrumb { margin: 0 0 24px; font-size: 0.95rem; color: var(--text-muted); }
+.breadcrumb a { text-decoration: none; }
+.breadcrumb a:hover { text-decoration: underline; }
+.breadcrumb span[aria-hidden] { margin: 0 6px; }
+
+.product-detail-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+.product-detail-image img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--radius);
+  border: 1px solid var(--green-200);
+}
+
+.product-detail-info h1 { font-size: clamp(1.8rem, 4vw, 2.5rem); }
+.detail-crop { margin: 0 0 6px; color: var(--text-muted); font-weight: 600; }
+.detail-description { font-size: 1.1rem; color: var(--text-muted); }
+
+.detail-block { margin-top: 28px; }
+.detail-block h2 { font-size: 1.2rem; margin-bottom: 0.6em; }
+.detail-block p { margin: 0; color: var(--text-muted); }
+
+.detail-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
+
+.related { margin-top: 64px; }
+
+.detail-message { max-width: 560px; padding: 32px; background: var(--green-50); border: 2px dashed var(--green-200); border-radius: var(--radius); }
+
+@media (min-width: 601px) {
+  .detail-actions .btn-dealer { order: -1; } /* Become a Dealer first, Enquire Now second */
+}
+@media (max-width: 768px) {
+  .product-detail-grid { grid-template-columns: 1fr; gap: 24px; }
+  .related { margin-top: 44px; }
+}
+@media (max-width: 600px) {
+  .detail-actions .btn { width: 100%; }
+}
