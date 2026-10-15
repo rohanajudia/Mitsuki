@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" role="img" aria-label="Nursery"><defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4faf0"/><stop offset="1" stop-color="#d9edc9"/></linearGradient></defs><rect width="600" height="450" fill="url(#g)"/>
+<path d="M220 300h160l-20 100H240z" fill="#c98b5b"/><rect x="210" y="288" width="180" height="22" rx="6" fill="#b87445"/>
+<rect x="296" y="190" width="8" height="100" fill="#5b9230"/>
+<path d="M300 220c-50-10-80-50-70-90 50 0 80 30 70 90z" fill="#6fa83a"/>
+<path d="M300 200c50-10 80-50 70-90-50 0-80 30-70 90z" fill="#98b03d"/></svg>

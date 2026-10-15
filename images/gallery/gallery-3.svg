@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" role="img" aria-label="Vegetables"><defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4faf0"/><stop offset="1" stop-color="#d9edc9"/></linearGradient></defs><rect width="600" height="450" fill="url(#g)"/>
+<path d="M230 190l60 190 60-190z" fill="#f08a3a" transform="rotate(-18 290 290)"/>
+<g fill="#6fa83a"><ellipse cx="222" cy="160" rx="22" ry="60" transform="rotate(-25 222 160)"/><ellipse cx="262" cy="140" rx="20" ry="64"/><ellipse cx="302" cy="160" rx="22" ry="60" transform="rotate(25 302 160)"/></g>
+<g fill="#98b03d"><ellipse cx="430" cy="270" rx="70" ry="48"/><ellipse cx="470" cy="300" rx="50" ry="36" fill="#6fa83a"/></g></svg>

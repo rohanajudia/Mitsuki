@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" role="img" aria-label="Field crops"><defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4faf0"/><stop offset="1" stop-color="#d9edc9"/></linearGradient></defs><rect width="600" height="450" fill="url(#g)"/>
+<g stroke="#b8932f" stroke-width="6" stroke-linecap="round"><line x1="180" y1="400" x2="180" y2="170"/><line x1="300" y1="400" x2="300" y2="130"/><line x1="420" y1="400" x2="420" y2="170"/></g>
+<g fill="#e0b13a">
+<ellipse cx="168" cy="190" rx="10" ry="22" transform="rotate(-20 168 190)"/><ellipse cx="192" cy="190" rx="10" ry="22" transform="rotate(20 192 190)"/><ellipse cx="180" cy="160" rx="10" ry="22"/>
+<ellipse cx="288" cy="150" rx="10" ry="22" transform="rotate(-20 288 150)"/><ellipse cx="312" cy="150" rx="10" ry="22" transform="rotate(20 312 150)"/><ellipse cx="300" cy="118" rx="10" ry="22"/>
+<ellipse cx="408" cy="190" rx="10" ry="22" transform="rotate(-20 408 190)"/><ellipse cx="432" cy="190" rx="10" ry="22" transform="rotate(20 432 190)"/><ellipse cx="420" cy="160" rx="10" ry="22"/></g></svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" role="img" aria-label="Fruits"><defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4faf0"/><stop offset="1" stop-color="#d9edc9"/></linearGradient></defs><rect width="600" height="450" fill="url(#g)"/>
+<circle cx="260" cy="250" r="95" fill="#e5484f"/><circle cx="235" cy="220" r="22" fill="#f08a8f" opacity=".6"/>
+<rect x="256" y="140" width="8" height="40" rx="4" fill="#7a5a3a"/>
+<path d="M264 150c30-30 70-20 80 0-30 20-60 20-80 0z" fill="#6fa83a"/>
+<circle cx="400" cy="300" r="62" fill="#f2a33a"/><circle cx="385" cy="282" r="14" fill="#f7c97a" opacity=".7"/></svg>

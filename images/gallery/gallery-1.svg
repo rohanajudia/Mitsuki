@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="Green fields under a soft sun">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4faf0"/><stop offset="1" stop-color="#e4f2da"/></linearGradient></defs>
+<rect width="640" height="480" fill="url(#sky)"/>
+<circle cx="500" cy="110" r="52" fill="#f7e7a1"/>
+<ellipse cx="160" cy="470" rx="420" ry="190" fill="#cfe6bd"/>
+<ellipse cx="520" cy="490" rx="400" ry="170" fill="#b5d99a"/>
+<ellipse cx="320" cy="520" rx="460" ry="150" fill="#8fc15f"/>
+<g fill="#6fa83a"><path d="M120 400c0-30 18-48 42-52-2 30-16 48-42 52z"/><path d="M120 400c0-26-16-42-38-46 2 26 14 42 38 46z"/><rect x="118" y="396" width="4" height="40"/></g>
+<g fill="#5b9230"><path d="M320 420c0-30 18-48 42-52-2 30-16 48-42 52z"/><path d="M320 420c0-26-16-42-38-46 2 26 14 42 38 46z"/><rect x="318" y="416" width="4" height="40"/></g>
+<g fill="#6fa83a"><path d="M520 400c0-30 18-48 42-52-2 30-16 48-42 52z"/><path d="M520 400c0-26-16-42-38-46 2 26 14 42 38 46z"/><rect x="518" y="396" width="4" height="40"/></g>
+</svg>
